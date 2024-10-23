@@ -1,0 +1,27 @@
+div{
+    margin: 10px;
+    margin-left: 50%;
+    text-align: center;
+    width: 150px;
+    height: 140px;
+    border-radius: 10px;
+}
+.d1d1{
+    background-color: aqua;
+}
+.d1d2{
+    background-color: blueviolet;
+}
+.d1d1:hover{
+   transform: rotateX(360deg);
+   transition: 5s;
+}
+.d1d2:hover{
+    transform: rotateY(360deg);
+    transition: 5s;
+ }
+ .d1d3s{
+    background-color: rgb(188, 124, 248);
+    transform: translateX(100px,300px);
+ }
+ 
